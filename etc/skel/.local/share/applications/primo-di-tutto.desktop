@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=2.1
+Exec=primo-di-tutto
+Name=Primo Di Tutto
+GenericName=Primo
+Encoding=UTF-8
+Terminal=false
+StartupWMClass=Primo
+Type=Application
+Categories=System
+Icon=/usr/share/icons/hicolor/scalable/apps/primo-di-tutto-logo.svg
+Path=/opt/primo-di-tutto/
+Comment=System verwalten, Desktop umdesignen, Software in/deinstallieren uvm.
+PrefersNonDefaultGPU=false
+NoDisplay=false
