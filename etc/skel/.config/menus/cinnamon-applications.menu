@@ -43,6 +43,9 @@
 		<Exclude>
 			<Filename>shares.desktop</Filename>
 		</Exclude>
+		<Exclude>
+			<Filename>gnome-software-root.desktop</Filename>
+		</Exclude>
 	</Menu>
 	<Menu>
 		<Name>Accessories</Name>
@@ -54,6 +57,10 @@
 			<Filename>redshift.desktop</Filename>
 		</Include>
 		<AppDir>/home/guideos/.local/share/applications</AppDir>
+		<Exclude>
+			<Filename>snapper-gui.desktop</Filename>
+		</Exclude>
+		<AppDir>/home/linux/.local/share/applications</AppDir>
 	</Menu>
 	<Menu>
 		<Name>Development</Name>
@@ -84,9 +91,6 @@
 	</Menu>
 	<Menu>
 		<Name>Preferences</Name>
-		<Include>
-			<Filename>language-support.desktop</Filename>
-		</Include>
 		<AppDir>/home/linux/.local/share/applications</AppDir>
 		<Exclude>
 			<Filename>cover-thumbnailer-gui.desktop</Filename>
@@ -97,6 +101,9 @@
 		<Include>
 			<Filename>hp-sendfax.desktop</Filename>
 		</Include>
+		<Exclude>
+			<Filename>language-support.desktop</Filename>
+		</Exclude>
 	</Menu>
 	<Menu>
 		<Name>Multimedia</Name>

@@ -364,7 +364,6 @@
             "gnome-boxes_gnome-boxes.desktop",
             "cubic.desktop",
             "gimp.desktop",
-            "org.gnome.Screenshot.desktop",
             "firefox.desktop"
         ]
     },
