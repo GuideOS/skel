@@ -1,4 +1,5 @@
 [Default Applications]
+# Bildformate
 image/bmp=eom.desktop
 image/gif=eom.desktop
 image/jpeg=eom.desktop
@@ -22,7 +23,22 @@ image/x-portable-graymap=eom.desktop
 image/x-portable-pixmap=eom.desktop
 image/x-xbitmap=eom.desktop
 image/x-xpixmap=eom.desktop
-text/plain=pluma.desktop
+
+# Text- und Skriptdateien → Mousepad
+text/plain=mousepad.desktop
+application/x-shellscript=mousepad.desktop
+application/x-sh=mousepad.desktop
+application/x-desktop=mousepad.desktop
+application/x-python=mousepad.desktop
+application/javascript=mousepad.desktop
+application/x-csrc=mousepad.desktop
+application/x-c++src=mousepad.desktop
+application/x-perl=mousepad.desktop
+application/x-php=mousepad.desktop
+application/json=mousepad.desktop
+text/x-log=mousepad.desktop
+
+# Debian-Pakete
 application/vnd.debian.binary-package=gdebi.desktop
 
 [Added Associations]
@@ -49,5 +65,20 @@ image/x-portable-graymap=eom.desktop;
 image/x-portable-pixmap=eom.desktop;
 image/x-xbitmap=eom.desktop;
 image/x-xpixmap=eom.desktop;
-text/plain=pluma.desktop;
+
+# Text und Skripte zusätzlich
+text/plain=mousepad.desktop;
+application/x-shellscript=mousepad.desktop;
+application/x-sh=mousepad.desktop;
+application/x-desktop=mousepad.desktop;
+application/x-python=mousepad.desktop;
+application/javascript=mousepad.desktop;
+application/x-csrc=mousepad.desktop;
+application/x-c++src=mousepad.desktop;
+application/x-perl=mousepad.desktop;
+application/x-php=mousepad.desktop;
+application/json=mousepad.desktop;
+text/x-log=mousepad.desktop;
+
+# Debian-Pakete
 application/vnd.debian.binary-package=gdebi.desktop;

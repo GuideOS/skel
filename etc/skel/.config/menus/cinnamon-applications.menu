@@ -38,13 +38,16 @@
 			<Filename>gdebi.desktop</Filename>
 		</Exclude>
 		<Exclude>
-			<Filename>lightdm-settings.desktop</Filename>
-		</Exclude>
-		<Exclude>
 			<Filename>shares.desktop</Filename>
 		</Exclude>
 		<Exclude>
 			<Filename>gnome-software-root.desktop</Filename>
+		</Exclude>
+		<Include>
+			<Filename>lightdm-settings.desktop</Filename>
+		</Include>
+		<Exclude>
+			<Filename>gkbd-keyboard-display.desktop</Filename>
 		</Exclude>
 	</Menu>
 	<Menu>
@@ -104,6 +107,9 @@
 		<Exclude>
 			<Filename>language-support.desktop</Filename>
 		</Exclude>
+		<Include>
+			<Filename>blueman-manager.desktop</Filename>
+		</Include>
 	</Menu>
 	<Menu>
 		<Name>Multimedia</Name>
