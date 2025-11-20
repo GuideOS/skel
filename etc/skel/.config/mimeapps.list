@@ -1,5 +1,5 @@
 [Default Applications]
-# Bildformate
+# Bildformate – bleiben bei EOM
 image/bmp=eom.desktop
 image/gif=eom.desktop
 image/jpeg=eom.desktop
@@ -24,7 +24,7 @@ image/x-portable-pixmap=eom.desktop
 image/x-xbitmap=eom.desktop
 image/x-xpixmap=eom.desktop
 
-# Text- und Skriptdateien → Mousepad
+# Text- und Skriptdateien – jetzt Mousepad
 text/plain=mousepad.desktop
 application/x-shellscript=mousepad.desktop
 application/x-sh=mousepad.desktop
@@ -41,7 +41,19 @@ text/x-log=mousepad.desktop
 # Debian-Pakete
 application/vnd.debian.binary-package=gdebi.desktop
 
+# E-Mail- und Kalenderdateien – jetzt Thunderbird
+message/rfc822=thunderbird.desktop
+application/x-extension-eml=thunderbird.desktop
+text/calendar=thunderbird.desktop
+application/ics=thunderbird.desktop
+application/vnd.mozilla.xul+xml=thunderbird.desktop
+application/x-xpinstall=thunderbird.desktop
+application/vnd.ms-outlook=thunderbird.desktop
+application/x-vcard=thunderbird.desktop
+text/vcard=thunderbird.desktop
+
 [Added Associations]
+# Bildformate
 image/bmp=eom.desktop;
 image/gif=eom.desktop;
 image/jpeg=eom.desktop;
@@ -66,7 +78,7 @@ image/x-portable-pixmap=eom.desktop;
 image/x-xbitmap=eom.desktop;
 image/x-xpixmap=eom.desktop;
 
-# Text und Skripte zusätzlich
+# Text- und Skriptdateien
 text/plain=mousepad.desktop;
 application/x-shellscript=mousepad.desktop;
 application/x-sh=mousepad.desktop;
@@ -82,3 +94,14 @@ text/x-log=mousepad.desktop;
 
 # Debian-Pakete
 application/vnd.debian.binary-package=gdebi.desktop;
+
+# E-Mail- und Kalenderdateien
+message/rfc822=thunderbird.desktop;
+application/x-extension-eml=thunderbird.desktop;
+text/calendar=thunderbird.desktop;
+application/ics=thunderbird.desktop;
+application/vnd.mozilla.xul+xml=thunderbird.desktop;
+application/x-xpinstall=thunderbird.desktop;
+application/vnd.ms-outlook=thunderbird.desktop;
+application/x-vcard=thunderbird.desktop;
+text/vcard=thunderbird.desktop;
