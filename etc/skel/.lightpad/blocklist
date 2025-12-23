@@ -1,0 +1,2 @@
+pkexec gnome-software
+/usr/bin/display-im7.q16 -nostdin %F
