@@ -1,0 +1,9 @@
+{
+    "update-refresh": {
+        "type": "entry",
+        "default": "60",
+        "description": "Minutes to wait before refreshing updates",
+        "value": "60"
+    },
+    "__md5__": "400a2e04f84807fb8fb2e7e6ebe25fec"
+}
